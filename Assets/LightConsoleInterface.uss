@@ -1,0 +1,101 @@
+#console {
+    transition-property: translate;
+    transition-duration: 250ms;
+    transition-timing-function: ease-in-out;
+}
+
+.toggle-level-button-log .unity-toggle__checkmark {
+    border-width: 0;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url('project://database/Packages/com.simonoliver.lightconsole/Assets/Icons/LogLevel_Log.png?fileID=21300000&guid=ebadef0d71c8f88438f683afacc11816&type=3#LogLevel_Log');
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0.2);
+    width: 30px;
+    height: 30px;
+}
+
+.toggle-level-button-log:checked .unity-toggle__checkmark {
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+}
+
+.toggle-level-button-warning .unity-toggle__checkmark {
+    border-width: 0;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url('project://database/Packages/com.simonoliver.lightconsole/Assets/Icons/LogLevel_Warning.png?fileID=21300000&guid=12a874bfc36698248bc23d109cf3b005&type=3#LogLevel_Warning');
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0.2);
+    width: 30px;
+    height: 30px;
+}
+
+.toggle-level-button-warning:checked .unity-toggle__checkmark {
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+}
+
+.toggle-level-button-error .unity-toggle__checkmark {
+    border-width: 0;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url('project://database/Packages/com.simonoliver.lightconsole/Assets/Icons/LogLevel_Error.png?fileID=21300000&guid=0730a158a465c7841ab7c192b42674d5&type=3#LogLevel_Error');
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0.2);
+    width: 30px;
+    height: 30px;
+}
+
+.toggle-level-button-error:checked .unity-toggle__checkmark {
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+}
+
+.toggle-level-button-exception .unity-toggle__checkmark {
+    border-width: 0;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url('project://database/Packages/com.simonoliver.lightconsole/Assets/Icons/LogLevel_Exception.png?fileID=21300000&guid=df58311aa3758fb409af26fea1207940&type=3#LogLevel_Exception');
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0.2);
+    width: 30px;
+    height: 30px;
+}
+
+.toggle-level-button-exception:checked .unity-toggle__checkmark {
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+}
+
+.toggle-level-button-assert .unity-toggle__checkmark {
+    border-width: 0;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url('project://database/Packages/com.simonoliver.lightconsole/Assets/Icons/LogLevel_Assert.png?fileID=21300000&guid=0b645da6e259dc44991537c7f5f0814d&type=3#LogLevel_Assert');
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0.2);
+    width: 30px;
+    height: 30px;
+}
+
+.toggle-level-button-assert:checked .unity-toggle__checkmark {
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+}
+
+.unity-text-field__input {
+    padding-left: 5px;
+    padding-right: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.unity-scroller #unity-tracker {
+    background-color: rgba(0, 0, 0, 0);
+    border-right-width: 0;
+    border-left-width: 0;
+}
+
+.unity-repeat-button {
+    background-color: rgba(0, 0, 0, 0);
+    border-width: 0;
+    -unity-background-image-tint-color: rgb(0, 0, 0);
+}
+
+.unity-base-slider__dragger {
+    background-color: rgb(0, 0, 0);
+    border-width: 0;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+}

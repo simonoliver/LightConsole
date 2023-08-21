@@ -1,0 +1,43 @@
+.log-log #log-string {
+    color: rgb(255, 255, 255);
+}
+
+.log-log #log-icon {
+    background-image: url('Icons/LogLevel_Log.png');
+}
+
+.log-warning #log-string {
+    color: rgb(255, 236, 0);
+}
+
+.log-warning #log-icon {
+    background-image: url('Icons/LogLevel_Warning.png');
+}
+
+.log-error #log-string {
+    color: rgb(195, 8, 0);
+}
+
+.log-error #log-icon {
+    background-image: url('Icons/LogLevel_Error.png');
+}
+
+.log-assert #log-string {
+    color: rgb(87, 159, 255);
+}
+
+.log-assert #log-icon {
+    background-image: url('Icons/LogLevel_Assert.png');
+}
+
+.log-exception #log-string {
+    color: rgb(206, 49, 209);
+}
+
+.log-exception #log-icon {
+    color: rgb(206, 49, 209);
+}
+
+.log-exception #log-icon {
+    background-image: url('Icons/LogLevel_Exception.png');
+}

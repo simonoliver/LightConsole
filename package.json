@@ -1,0 +1,23 @@
+{
+  "name": "com.simonoliver.lightconsole",
+  "displayName": "Light Console",
+  "description": "Lightweight UIElements based console",
+  "author": {
+    "name": "Simon Oliver",
+    "url": "https://www.simonoliver.com"
+  },
+  "keywords": [
+    "unity",
+    "console",
+    "ui"
+  ],
+  "license": "MIT",
+  "unity": "2022.3",
+  "unityRelease": "0f1",
+  "version": "1.0.0",
+  "type": "library",
+  "hideInEditor": false,
+  "dependencies": {
+ 
+  }
+}

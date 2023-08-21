@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Packages/com.simonoliver.lightconsole/Assets/LogEntry.uss?fileID=7433441132597879392&amp;guid=3e3c95742c5e4e06a105e611383a25e9&amp;type=3#LogEntry" />
+    <ui:VisualElement name="list-entry" class="log-log" style="background-color: rgba(0, 0, 0, 0.25); border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; flex-direction: row; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; flex-shrink: 1; height: 25px;">
+        <ui:VisualElement name="log-icon" style="flex-grow: 0; width: 25px; height: 25px; flex-shrink: 0;" />
+        <ui:Label text="Label" display-tooltip-when-elided="true" name="log-string" style="padding-left: 5px; font-size: 12px; margin-top: 2px; flex-grow: 1;" />
+    </ui:VisualElement>
+</ui:UXML>

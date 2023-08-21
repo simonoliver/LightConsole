@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Packages/com.simonoliver.lightconsole/Assets/CommandButtonTemplate.uss?fileID=7433441132597879392&amp;guid=3cf9ee0419bb7f44cbbb72644c87c60a&amp;type=3#CommandButtonTemplate" />
+    <ui:Button text="Button" display-tooltip-when-elided="true" name="command-button" style="flex-shrink: 1; background-color: rgb(63, 63, 63); border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; color: rgb(255, 255, 255); border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px;" />
+</ui:UXML>

@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="list-entry" style="background-color: rgba(255, 255, 255, 0); border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; height: 25px;">
+        <ui:Label text="Label" display-tooltip-when-elided="true" name="stack-trace-string" style="color: rgb(255, 255, 255); margin-top: 2px; padding-left: 5px; font-size: 12px;" />
+    </ui:VisualElement>
+</ui:UXML>
